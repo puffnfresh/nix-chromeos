@@ -6,6 +6,7 @@
 tarball.
 
 ```sh
+$ sudo mkdir /usr/local/nixroot
 $ sudo tar -C /usr/local/nixroot --transform='s|^nix-[^/]*|nix|' -xf ~/Downloads/nix-1.8-x86_64-linux.tar.bz2
 ```
 
